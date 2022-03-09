@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infraestructure.Repository
+namespace AppCore.Processes
 {
     public class LineaRecta : IDepreciacionModel
     {
@@ -21,5 +21,5 @@ namespace Infraestructure.Repository
             }
             return depreciaciones;
         }
-    }
 }
+    }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IActivoModel: IModel<Activo>
+    public interface IActivoModel: IActivoModel<Activo>
     {
 
         Activo GetById(int id);

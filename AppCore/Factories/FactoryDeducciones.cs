@@ -1,4 +1,5 @@
-﻿using Domain.Enum;
+﻿using AppCore.Processes;
+using Domain.Enum;
 using Domain.Interfaces;
 using Infraestructure.Repository;
 using System;

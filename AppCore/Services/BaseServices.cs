@@ -10,8 +10,8 @@ namespace AppCore.Services
 {
     public abstract class BaseServices<T>: IServices<T>
     {
-        private IModel<T> Model;
-        protected BaseServices(IModel<T> model)
+        private IActivoModel<T> Model;
+        protected BaseServices(IActivoModel<T> model)
         {
             this.Model = model;
         }

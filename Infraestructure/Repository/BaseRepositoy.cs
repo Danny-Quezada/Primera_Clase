@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infraestructure.Repository
 {
-    public abstract class BaseRepositoy<T> : IModel<T>
+    public abstract class BaseRepositoy<T> : IActivoModel<T>
     {
         public List<T> data;
         protected BaseRepositoy()
